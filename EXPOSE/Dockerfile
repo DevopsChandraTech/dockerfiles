@@ -1,2 +1,3 @@
 FROM cmd:v1
 EXPOSE 80/tcp
+EXPOSE 8080 443 22
