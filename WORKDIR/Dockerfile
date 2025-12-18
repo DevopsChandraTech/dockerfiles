@@ -1,4 +1,5 @@
 FROM almalinux:9
-WORKDIR cd /tmp
+mkdir /app
+WORKDIR cd /app
 RUN touch file1
 CMD ["sleep","1000"]
